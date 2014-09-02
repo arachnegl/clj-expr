@@ -1,6 +1,20 @@
 <html>
-<head><title>Cljs Hello</title></head>
-<body>
-  <script type="text/javascript" src="hello.js"></script>
-</body>
+    <head>
+        <title>Cljs Hello</title>
+    </head>
+    <body>
+      <h1>Example</h1>
+      <form id="eval-form">
+        <p><label for="eval-expr">Enter Clojure Expression:</label></p>
+        <p><input id="eval-expr" name="eval-expr" type="text" size="70"/></p>
+        <p><input id="eval-button" type="button" value="Eval"/></p>
+      </form>
+      <p>The result</p>
+      <pre id="eval-result">
+      </pre>
+      <script src="/client.js" language="javascript"></script>
+      <script type="text/javascript" language="javascript">
+        client_server.client.main()
+      </script>
+    </body>
 </html>

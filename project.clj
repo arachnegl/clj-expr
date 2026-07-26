@@ -6,7 +6,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2322"]
                  [org.clojure/tools.logging "0.3.0"]
-                 [domina "1.0.2"]
+                 [domina "1.0.3"]
                  [compojure "1.1.8"]
                  [ring/ring-jetty-adapter "1.3.1"]]
   :source-paths ["src/clj"]

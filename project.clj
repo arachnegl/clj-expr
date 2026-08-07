@@ -8,7 +8,7 @@
                  [org.clojure/tools.logging "0.3.0"]
                  [domina "1.0.2"]
                  [compojure "1.1.8"]
-                 [ring/ring-jetty-adapter "1.3.1"]]
+                 [ring/ring-jetty-adapter "1.15.5"]]
   :source-paths ["src/clj"]
   :plugins [[lein-cljsbuild "0.2.7"]]
   :main client-server.server

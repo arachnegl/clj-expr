@@ -10,7 +10,7 @@
                  [compojure "1.1.8"]
                  [ring/ring-jetty-adapter "1.3.1"]]
   :source-paths ["src/clj"]
-  :plugins [[lein-cljsbuild "0.2.7"]]
+  :plugins [[lein-cljsbuild "1.1.8"]]
   :main client-server.server
   :cljsbuild {
       :builds [{
